@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>SuperTiled2Unity.Runtime</RootNamespace>
+        <TargetFrameworks>net471;netstandard2.1</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="UnityEngine">
+        <HintPath>UnityEngine.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>SuperTiled2Unity</RootNamespace>
+        <TargetFrameworks>net471;netstandard2.1</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="SuperTiled2Unity" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="UnityEditor">
+        <HintPath>UnityEditor.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>..\Runtime\UnityEngine.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Runtime\Runtime.csproj" />
+    </ItemGroup>
+
+</Project>
